@@ -45,7 +45,6 @@ header{
 /* Actions section */
 .actions{
     font-size: 13px;
-    margin-bottom: 40px;
 }
 
 .action-button{
@@ -68,6 +67,10 @@ ul{
     list-style-type: none;
 }
 
-.task-body{
-    margin-left: 20px;
+.task-title-name{
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
 }
+
