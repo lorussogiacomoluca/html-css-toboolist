@@ -38,11 +38,32 @@ header{
     width: 990px;
     margin: 15px auto 0;
     border: 2px solid red;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #fff;
 }
 
 /* Actions section */
+.actions{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.action-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216)
+}
+
+#action-task{
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#action-section{
+    color: rgb(216, 216, 216);
+}
+
+/* Tasks section */
 ul{
     list-style-type: none;
 }
