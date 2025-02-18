@@ -7,7 +7,7 @@
 
 body
 {
-    background: grey;
+    background-color: #ece9e9;
 }
 .d-inline{
     display: inline;
@@ -19,12 +19,11 @@ body
 
 /* Header Section */
 header{
-    border: 2px solid red;
     background: #fff;
 }
 
 #head-container{
-    margin: 5px;
+    padding: 8px;
 }
 
 .title{
@@ -37,17 +36,13 @@ header{
 #task-container{
     width: 990px;
     margin: 15px auto 0;
-    border: 2px solid red;
     padding: 20px 40px;
     background-color: #fff;
 }
 
 /* Actions section */
-.actions{
-    font-size: 13px;
-}
-
 .action-button{
+    font-size: 13px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(216, 216, 216)
@@ -79,7 +74,7 @@ ul{
 }
 
 .icon{
-    font-size: 0.5rem;
+    font-size: 0.5em;
     padding: 4px;
     border-radius: 50%;
     border: 1px solid;
@@ -99,4 +94,37 @@ ul{
     color: rgb(78, 78, 78);
     font-size: 15px;
     font-weight: 600;
+}
+
+/* Status */
+.status{
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    color: #fff;
+}
+
+.editorial{
+    background-color: #007BFF;
+}
+
+.q1goals{
+    background-color: darkorchid;
+}
+
+.recruiting{
+    background-color: forestgreen;
+}
+
+.mobile{
+    background-color: chocolate;
+}
+
+.website{
+    background-color: deeppink;
+}
+
+.sales{
+    background-color:lawngreen;
 }
