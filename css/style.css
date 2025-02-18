@@ -2,5 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
+}
+
+.d-inline{
+    display: inline;
+}
+
+.v-align{
+    vertical-align: middle;
+}
+
+/* Header Section */
+.head-container{
+    margin: 5px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #021732;
 }
